@@ -1,0 +1,391 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.protest-img img{
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+}
+.cur-date{
+    border: 1px solid blue;
+    background-color: blue;
+    text-align: center;
+    width: 70%;
+    padding: 14px 1px;
+    margin-left: 16px;
+}
+.cur-date p{
+    line-height: 10px;
+    font-size: 15px;
+    color: white;
+}
+.cur-date h4{
+    line-height: 0px;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+.date-social-icons{
+    text-align: center;
+}
+.social-icons1 i{
+    font-size: 14px;
+    color: white;
+    padding: 11PX;
+    BACKGROUND: #0000ffb0;
+    padding-left: 14px;
+    BORDER-RADIUS: 16px;
+    padding-right: 14px;
+}
+.social-icons2 i{
+    font-size: 16px;
+    color: white;
+    padding: 10PX;
+    BACKGROUND: #2196F3;
+    BORDER-RADIUS: 22PX;
+}
+.social-icons3 i{
+    font-size: 14px;
+    color: white;
+    padding: 11PX;
+    BACKGROUND: rgb(210, 24, 24);
+    padding-left: 14px;
+    BORDER-RADIUS: 16px;
+    padding-right: 14px;
+}
+.social-icons4 i{
+    font-size: 13px;
+    color: white;
+    padding: 11PX;
+    BACKGROUND: rgb(220, 61, 61);
+    BORDER-RADIUS: 22PX;
+}
+.blogger1-img img{
+    width: 100%;
+    height: 100%;
+}
+.blogger-id{
+    display: flex;
+    
+}
+.comments-icon i{
+    font-size: 20px;
+    color: rgb(84, 84, 195);
+}
+.date-icon i{
+    font-size: 20px;
+    color: rgb(84, 84, 195);
+}
+.color-change{
+    color: #6179c8e0;
+    font-style: italic;
+}
+  .input-container {
+      display: flex;
+  }
+  
+  ::placeholder {
+    color: #757575;
+    opacity: 1;
+  }
+  
+  .search-input {
+    background: #EEEEEE;
+    color: #212121;
+      vertical-align: middle;
+    font-size: 16px;
+    line-height: 2;
+    padding: 10px 20px;
+    border: 0;
+    outline: none;
+    box-shadow: inset 0 -1px 1px -1px #CCCCCC, inset 0 1px 1px -1px #CCCCCC, inset 1px 0 1px -1px #CCCCCC;
+    width: 100%;
+}
+
+  
+  .search-submit {
+    color: black;
+      vertical-align: middle;
+    padding: 0 20px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .search-submit:hover {
+    background: #AB47BC;
+  }
+  
+  .search-submit i {
+    font-size: 24px;
+  }
+.cont-box h4{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+.cont-box {
+    padding: 25px;
+    background-color: #e3e9fce0;
+    
+}
+.cont-box2 {
+    padding: 25px;
+    background-color: #e3e9fce0;
+    
+}
+.cont-box2 h6{
+    font-size: 15px;
+    color: gray;
+    padding-top: 10px;
+}
+.cont-box2 h2{
+    font-size: 22px;
+    font-weight: 700;
+
+}
+.cont-box p{
+    font-size: 13px;
+    color: gray;
+}
+.social-icons{
+    padding-top: 10px;
+}
+.client-round{
+    
+    height: 30px;
+}
+.back-colour{
+    background-color: blue;
+    padding: 0px 13px;
+}
+.back-colour p{
+    color: white;
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 5px;
+}
+.back-colour h4{
+   color: white;
+   font-size: 20px;
+   line-height: 6px;
+   font-weight: 700;
+}
+.metting-room img{
+    width: 100%;
+}
+.metting-room {
+    position: relative;
+}
+/* .back-colour{
+    display: inline;
+} */
+.date-up{
+    display: flex;
+    position: absolute;
+}
+.tags-first{
+    display: flex;
+    justify-content: space-evenly;
+}
+.desig1{
+    border: 1px solid gray;
+    padding: 0px 14px;
+}
+.desig1 h4{
+    font-size: 15px;
+    color: gray;
+    margin-top: 3px;
+    font-weight: 400;
+}
+ 
+.cont-box h2{
+    font-size: 22px;
+    font-weight: 700;
+
+}
+.cont-box3 {
+    padding: 25px;
+    background-color: #e3e9fce0;
+    
+}
+.cont-box3 h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+.post2{
+    font-size: 22px;
+    font-weight: 700;
+}
+.all-comments{
+    padding-top: 50px;
+}
+.all-comments h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+.user-comments img{
+    width: 100%;
+    border-radius: 30px;
+}
+.user-comments{
+    padding: 15px;
+}
+.user-name h4{
+    font-size: 16px;
+    font-weight: 600; 
+    display: flex;
+}
+.user-name h4 span{
+    font-size: 16px;
+    font-weight: 600; 
+    color: #cfbbbb;
+
+}
+.user-name h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: #212121;
+}
+.user-name a{
+    font-size: 16px;
+    font-weight: 600; 
+    text-decoration: none;
+    color: blue;
+}
+.leave-reply h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+.leave-reply p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #212121;
+    font-style: italic;
+}
+.leave-reply p span{
+    color: red;
+}
+.leave-reply{
+    padding-top: 50px;
+}
+.btn-post{
+    padding: 7px 14px;
+    background-color: blue;
+    color: white;
+    border: 1px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.form-blog{
+    background-color: #eef1f7;
+}
+.content-line{
+    display: flex;
+}
+.line1{
+    height: 66px;
+    width: 4px;
+    background-color: blue;
+    margin-top: 5px;
+
+}
+.top-blog{
+    font-size: 22px;
+    color: black;
+    font-weight: 700;
+}
+.blog-dis{
+   font-size: 16px; 
+   font-weight: 400;
+   color: #212121;
+}
+.title-content{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+}
+/* slider owl */
+img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  .owl-nav button.owl-prev {
+    left: 0;
+  }
+  .owl-nav button.owl-next {
+    right: 0;
+  }
+  
+  .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+  }
+  .owl-dots button.owl-dot.active {
+    background-color: #000;
+  }
+  .owl-dots button.owl-dot:focus {
+    outline: none;
+  }
+  .owl-nav button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgb(117 114 114 / 68%) !important;
+  }
+  
+  .owl-nav button:focus {
+      outline: none;
+  }
+ 
+  .item {
+      width: 100%;
+  }
+  .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(117, 114, 114, 0.38) !important;
+}
+  
+  @media screen and (max-width: 770px){
+    .cur-date {
+        border: 1px solid blue;
+        background-color: blue;
+        text-align: center;
+        width: 20%;
+        padding: 10px 1px;
+         margin-left: 0px;  
+    }
+    .date-social-icons {
+        display: flex;
+        /* text-align: center; */
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+    .user-comments img {
+        width: 30%;
+        border-radius: 30px;
+    }
+  }
+  .owl-nav button svg path{
+    fill: white;
+  }
+ 
